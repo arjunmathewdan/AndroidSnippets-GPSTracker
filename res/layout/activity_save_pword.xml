@@ -1,0 +1,26 @@
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	>		
+	<TextView
+	    android:id="@+id/savepwordtext"
+		android:text="Enter the security code to be saved"
+		android:gravity="center"
+	/>
+	<TableRow>
+		<TextView
+			android:text="Secret Code:"
+			android:width ="120px"
+		/>
+		<EditText
+			android:id="@+id/savepwordtxt"
+			android:password="true"
+			android:width ="200px"
+		/>
+	</TableRow>	
+	<Button
+			android:id="@+id/savepwordbtn"
+			android:text="Save"
+			android:gravity="center" />
+</TableLayout>
